@@ -1,7 +1,8 @@
 {
   "name": "story-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Money Tracker App is an app to create snapshot for every transaction that the user has doing",
+  "private": true,
   "scripts": {
     "build:prod": "webpack --config webpack.prod.js",
     "build:dev": "webpack serve --config webpack.dev.js",
@@ -10,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "your_name <your_email>",
+  "author": "MHFCode",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.20.2",
@@ -32,7 +33,7 @@
   },
   "dependencies": {
     "@popperjs/core": "2.11.6",
-    "bootstrap": "5.2.2"
+    "bootstrap": "5.2.2",
+    "bootstrap-icons": "1.10.2"
   }
 }
-

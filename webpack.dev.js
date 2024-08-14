@@ -15,5 +15,7 @@ module.exports = merge(common, {
       },
     },
     watchFiles: ['src/**/*'],
+    port: 9000,
   },
 });
+
